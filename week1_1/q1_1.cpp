@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 int i, t = 1;
-inline int isprime(int c)
+int isprime(int c)
 {
     for (i = 2; i < c; i++)
     {
